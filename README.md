@@ -14,5 +14,5 @@ Extensions: Integrating other APIs like speech to text over our service to achie
 A chat application that analyses chat conversations to give you insights about emotions, personality and provides summary of the chat. The summary section can help user to quickly grasp the context of the chat. It can be divided into number of sections- chat window, summary, emotions.
 Technologies: Smartchat uses Watson services such as tone analyzer, personality analyzer, alchemy language API to give you insight about your text.
 
-## 3. ChefBOT.##
+## 3. ChefBOT ##
 The chef will be created using Watson conversation and spoonacular API. It will suggest the recipes based on list on ingredients and type of cuisines, etc.
