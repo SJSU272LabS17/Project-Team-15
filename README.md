@@ -14,5 +14,5 @@ Extensions: Integrating other APIs like speech to text over our service to achie
 A chat application that analyses chat conversations to give you insights about emotions, personality and provides summary of the chat. The summary section can help user to quickly grasp the context of the chat. It can be divided into number of sections- chat window, summary, emotions.
 Technologies: Smartchat uses Watson services such as tone analyzer, personality analyzer, alchemy language API to give you insight about your text.
 
-## 3. SJSU ChatBOT.##
-The chatbot will be created using SlackAPI where user can ask general class and curriculum related queries. This can be a single point of information where a student may not need to go through the website and surf long for small informations.
+## 3. ChefBOT.##
+The chef will be created using Watson conversation and spoonacular API. It will suggest the recipes based on list on ingredients and type of cuisines, etc.
