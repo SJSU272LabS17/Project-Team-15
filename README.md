@@ -14,6 +14,6 @@ NodeJS	NodeJS is an open-source, cross-platform JavaScript run-time environment 
 AngularJS	AngularJS is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community to address many of the challenges encountered in developing single-page applications.
 ExpressJS	Express, is a web application framework for Node.js. It is designed for building web applications and APIs. It is the de facto standard server framework for Node.js
 MySQL Database	MySQL is an open-source relational database management system (RDBMS). MySQL is also used in many high-profile, large-scale websites, including Google(though not for searches), Facebook, Twitter, Flickr, and YouTube.
-Encryption- Bcrypt	bcrypt is a password hashing function The bcrypt function is the default password hash algorithm for OpenBSD and other systems including some Linux distributions such as SUSE Linux
+Encryption- Bcrypt	bcrypt is a password hashing function The bcrypt function is the default password hash algorithm for OpenBSD and other systems including some Linux distributions such as SUSE Linux.
 
 
