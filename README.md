@@ -1,4 +1,5 @@
-HAKUNA MATATA
+HAKUNA MATATA (TEAM 9)
+NOTE: We are canvas team 9. But there happened some confusion so we got github 15. Please consider as canvas team 9
 
 Hakuna Matata is a place to bring us all together to put on party dress or pack our bag packs and head out to an Eventful journey with someone you find spending time with is, FUN!!!
 As it means “NO WORRIES FOR THE REST OF YOUR LIFE”.
