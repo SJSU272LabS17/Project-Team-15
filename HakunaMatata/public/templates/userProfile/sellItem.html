@@ -1,0 +1,71 @@
+
+
+<div class="container">
+    <div class="well well-sm">
+		<h2><strong>Sell Product</strong></h2>
+    </div>
+    
+    <div id="products" class="well well-sm">
+	<div >
+			<form role = "form" name="ItemAddForm" ng-submit="Addproduct()">
+				<h2>Add Product Details</h2>
+
+				<!-- Item Name -->
+			    <div class="form-group">
+			      <label for="ItemName">Product Name</label>
+			      <input type="text" class="form-control" ng-model="ItemName" placeholder="Enter Product Name" required/>
+			      <!-- <label ng-show = "ItemAddForm.firstname.$error.required">First Name is Required</label> -->
+			    </div>
+
+				<!-- Item Description-->
+				<div class="form-group">
+			      <label for="ItemDescription">Product Description</label>
+			      <input type="text" class="form-control" ng-model="ItemDescription" placeholder="Enter Description" required/>
+			    </div>
+
+				
+				
+				<!-- Product Type -->
+				<div class="form-group">
+			      <label for="ProductType">Product Type</label>
+			    
+					 <select id="typeSelect" class="form-control" required>
+                            <option value="">--- Select---</option>
+                            <option data-ng-repeat="Type in TypeList" value="{{Type.ItemTypeId}}">{{Type.ItemType}}</option>
+                    </select>
+
+			    </div>
+			    
+			    <!-- For Buy or Auction -->
+			    <div class="form-group">
+                        <label class="control-label" for="txtPerformanceType" ng-click="RadioButtonClick()">Direct Sell / Auction:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                        <input type="radio" name="rdoCriteria" value="0" ng-model="IsBidItem" checked />Direct Sell &nbsp;&nbsp;
+                        <input type="radio" name="rdoCriteria" value="1" ng-model="IsBidItem">Auction
+                 </div>
+
+				<!-- Qty -->
+				<div class="form-group" >
+					<label for="Qty">Qty</label>
+					<input type="number" class="form-control" ng-model="Qty" placeholder="Number of items" ng-disabled="IsBidItem==1"/>
+				</div>
+
+				<!-- Cost -->
+				<div class="form-group">
+			      <label for="Cost">Cost</label>
+			      <input type="text" class="form-control" ng-model="Price" placeholder="Cost in USD" required/>
+			    </div>
+				
+
+				
+				<input-data-list-dropdown choices="items" model="item"></input-data-list-dropdown>
+				
+			  
+				
+				<!-- Submit Button -->
+				<button type="submit" class="btn btn-info btn-block">Post Your Advertisement</button>
+					
+			</form>
+    </div>
+       
+    </div>
+</div>

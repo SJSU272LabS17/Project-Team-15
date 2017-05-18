@@ -1,0 +1,165 @@
+<!-- ref link for bootstrap http://bootsnipp.com/user/snippets/ORjE8 -->
+
+
+<html>
+<head>
+	<title>Ebay</title>
+
+<link rel='stylesheet' href='/stylesheets/style.css' />
+
+	
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	
+	
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+
+
+	<!-- Script for Angular JS -->
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+	
+	
+<!--  <script src="public/scripts/ProductGrid.js"></script>-->
+<script src="/angularJS/products.js"></script>
+<script src="/angularJS/productsForAuction.js"></script>
+</head>
+
+<body ng-app="products" >
+
+
+ <nav class="navbar navbar-default navbar-fixed-top">
+		    <div class="container">
+		      <div class="navbar-header">
+		        <a class="navbar-brand" href="/"><img src="images/eBay_logo.png" height="30" width="70"  /></a>
+		      </div>
+		
+		      <ul class="nav navbar-nav navbar-right">
+				  <li><a href="../userProfile#/"><i class="fa fa-user"></i> User Profile</a></li>
+		       	  <li><a href="../userProfile#/cart"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+				  <!--<li> <a href="../userProfile#/cart"> <i class="fa fa-sign-out"></i> sign Out</a></li>-->
+
+				  <li> <a href="/signin"> <i class="fa fa-sign-out"></i> sign Out</a></li>
+
+		      </ul>
+
+		    </div>
+</nav>
+
+
+
+<div ng-controller="products">
+
+	<!--<a class="btn btn-success" ng-click= "signout()">sign Out</a>-->
+	<div class="container">
+	    <div class="well well-sm">
+			<h2><strong>Buy Directly</strong></h2>
+	    </div>
+	    
+	    <div id="products" class="row list-group">
+	        
+	        <div class="item  col-xs-4 col-lg-4"  ng-repeat="product in allProducts">
+	            <div class="thumbnail">
+	                <!--<img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />-->
+					<img class="group list-group-image" src="images/product-icon-large.png" alt="" />
+	                <div class="caption">
+	                    <h3 class="group inner list-group-item-heading">
+	                        <b>{{product.ItemName}}</b></h3>
+	                    <p class="group inner list-group-item-text">
+	                        <h4>{{product.ItemDescription}} </h4></p>
+						</br>
+						<p><h4><b>Items left in stock: {{product.Qty}}</b></h4>
+						</p>
+						</br>
+	                    <div class="row">
+	                        <div class="col-xs-12 col-md-6">
+	                            <p class="lead">
+									<b>Cost:  ${{product.Price}}</b></p>
+	                        </div>
+	                        <div class="col-xs-12 col-md-6">
+	                            <a class="btn btn-success" ng-click= "AddToCart(product.ItemId)">Add to cart</a>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	       
+	    </div>
+	</div>
+</div>
+
+<div ng-controller="productsForAuction">
+
+	<div class="container">
+	    <div class="well well-sm">
+			<h2><strong>Items for auction </strong></h2>
+	        <!-- <div class="btn-group">
+	            <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
+	            </span>List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
+	                class="glyphicon glyphicon-th"></span>Grid</a>
+	        </div> -->
+	    </div>
+	    
+	    <div id="products" class="row list-group">
+	        
+	        <div class="item  col-xs-4 col-lg-4"  ng-repeat="product in allProductsForAuction">
+	            <div class="thumbnail">
+	                <img class="group list-group-image" src="images/product-icon-large.png" alt="" />
+	                <div class="caption">
+	                    <h3 class="group inner list-group-item-heading">
+							<b>{{product.ItemName}}</b></h3>
+	                    <p class="group inner list-group-item-text">
+						<h4> {{product.ItemDescription}}</h4>
+	                    </p>
+
+
+	                        
+	                     <br>
+	                     <p class="group inner list-group-item-text">
+
+						<h4><b>	Added on: {{product.DateAdded  | date:'medium'}} </b> </h4>
+	                     </p>
+	                     <p class="group inner list-group-item-text text-danger">
+						<h4><b class = "text-danger">Auction ends: {{product.AuctionEndDate  | date:'medium'}}   </b> </h4>
+	                     </p>
+	                     <br>
+	                    <div class="row">
+	                        <div class="col-xs-12 col-md-5">
+	                            <p class="lead">
+	                               <b>Cost: ${{product.Price}} </b></p>
+	                        </div>
+	                    </div>
+						<div class="row">
+							<div class="col-xs-12 col-md-5">
+								<p>
+									<b class="text-danger"><h3>Bid > ${{product.MaxBidAmount}}</h3></b>
+								</p>
+							</div>
+						</div>
+
+
+	                    <div class="row">   
+	                        <div class = "col-xs-8">
+    							<input class="form-control input-md " id="inputsm" type="text" ng-model="product.BidAmount" placeholder="Bid amount in USD" >
+	                        </div>
+	                        <div class="col-xs-12 col-md-4">
+	                            <a class="btn btn-success" ng-click= "addBidOnProduct(product.ItemId,product.BidAmount,product.MaxBidAmount,product.Price)" >Bid</a>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	       
+	    </div>
+	</div>
+</div>
+
+
+</body>
+</html>

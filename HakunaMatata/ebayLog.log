@@ -1,0 +1,10 @@
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T03:23:38.054Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T03:23:38.055Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T03:23:38.119Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T03:23:38.121Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T03:23:38.123Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T03:24:55.250Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T03:24:55.252Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T03:24:55.296Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T03:24:55.299Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T03:24:55.300Z"}

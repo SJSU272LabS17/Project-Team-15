@@ -1,0 +1,92 @@
+<!-- ref link for bootstrap http://bootsnipp.com/user/snippets/ORjE8 -->
+
+
+<html>
+<head>
+    <title>Admin Home</title>
+
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css"/>
+
+
+    <!-- Script for Angular JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+
+
+    <!--  <script src="public/scripts/ProductGrid.js"></script>-->
+    <script src="/angularJS/tempEvents.js"></script>
+    <!-- <script src="/angularJS/productsForAuction.js"></script> -->
+</head>
+
+<body ng-app="tempEvents">
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/"><img src="images/eBay_logo.png" height="30" width="70"/></a>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/myHome"> <i class="fa fa-sign-out"></i> sign Out</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<div ng-controller="tempEvents">
+
+    <!--<a class="btn btn-success" ng-click= "signout()">sign Out</a>-->
+    <!-- <div  style="background-image:url(/images/geekBackground.jpg)"> -->
+    <div style="background-image:url(/images/geekBG.png)">
+        <!-- <img class="card-img-top img-fluid" src="/images/geekBackground.jpg" alt="Free Bootstrap Portfolio Template"> -->
+        <div class="container">
+
+            <div id="products" class="row list-group">
+                <div class="item  col-xs-4 col-lg-4" ng-repeat="event in events">
+                    <img class="group list-group-image" src="images/historyMMeusium.png" height="300" width="350"
+                         alt=""/>
+                    <div data-animation="animated fadeInLeft">
+                        <!--<img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />-->
+
+                        <div class="caption">
+                            <h3 class="group inner list-group-item-heading">
+                                <b>{{event.EventName}}</b></h3>
+                            <p class="group inner list-group-item-text">
+                            <h4><i>{{event.EventDescription}}</i></h4></p>
+                            </br>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6">
+                                    <p><h4><b><i>Tickets Left:</i> {{event.Qty}}</b></h4>
+                                    </p>
+                                    <p class="lead">
+                                        <b><i>Its just:</i> ${{event.Price}}</b></p>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <a class="btn btn-success" ng-click="approveEvent((event.EventId))"><i>Approve Event</i></a>
+                                    <!-- <a href="#" class="btn btn-ghost btn-lg">Buy Tickets!</a> -->
+                                </div>
+                            </div>
+                            </br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

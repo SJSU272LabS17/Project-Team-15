@@ -1,0 +1,422 @@
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T03:35:17.850Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T03:35:17.852Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T03:35:17.957Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T03:35:17.959Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T03:35:17.959Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T03:35:26.369Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T03:35:26.369Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T03:35:26.384Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T03:35:26.385Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T03:35:26.385Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T04:25:57.707Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T04:25:57.709Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T04:25:57.838Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T04:25:57.838Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T04:27:38.520Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T04:27:38.521Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T04:27:38.538Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T04:27:38.539Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T04:27:40.488Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T04:27:40.489Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T04:27:40.497Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T04:27:40.498Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T04:27:42.433Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T04:27:42.435Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T04:27:42.445Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T04:27:42.445Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'GEEK'","timestamp":"2017-05-18T04:27:47.238Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'GEEK'","timestamp":"2017-05-18T04:27:47.238Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.events' doesn't exist","timestamp":"2017-05-18T04:27:47.259Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T04:27:47.260Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'LOVER'","timestamp":"2017-05-18T04:27:52.868Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'LOVER'","timestamp":"2017-05-18T04:27:52.868Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.events' doesn't exist","timestamp":"2017-05-18T04:27:52.872Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T04:27:52.872Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,Eventdate,images from events where Qty>0 and EventType = 'FREAK'","timestamp":"2017-05-18T04:28:02.388Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,Eventdate,images from events where Qty>0 and EventType = 'FREAK'","timestamp":"2017-05-18T04:28:02.388Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.events' doesn't exist","timestamp":"2017-05-18T04:28:02.393Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T04:28:02.393Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T04:31:20.191Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T04:31:20.193Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T04:31:20.312Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T04:31:20.313Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:03:25.271Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:03:25.270Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T05:03:25.368Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:03:25.369Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'GEEK'","timestamp":"2017-05-18T05:03:27.017Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'GEEK'","timestamp":"2017-05-18T05:03:27.017Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:03:27.026Z"}
+{"level":"info","message":"No items to display for user : undefined","timestamp":"2017-05-18T05:03:27.029Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:03:27.031Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:03:41.203Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:03:41.203Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T05:03:41.213Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:03:41.214Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:03:43.086Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:03:43.086Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T05:03:43.093Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:03:43.093Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'pranjali.shrivastava@sjsu.edu'","timestamp":"2017-05-18T05:04:13.509Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'pranjali.shrivastava@sjsu.edu'","timestamp":"2017-05-18T05:04:13.510Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:04:13.513Z"}
+{"level":"info","message":"New mail for id: pranjali.shrivastava@sjsu.edu","timestamp":"2017-05-18T05:04:13.514Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:04:13.514Z"}
+{"level":"info","message":"Query:: INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('Pranjali','pranjali.shrivastava@sjsu.edu','$2a$10$5VlzjXMJF4907V6rhAWfjutnmJK8cBQHnSk1N2DNTBmyJxZBotHA6','as','1212-12-12')","timestamp":"2017-05-18T05:04:13.770Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('Pranjali','pranjali.shrivastava@sjsu.edu','$2a$10$5VlzjXMJF4907V6rhAWfjutnmJK8cBQHnSk1N2DNTBmyJxZBotHA6','as','1212-12-12')---","timestamp":"2017-05-18T05:04:13.770Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:04:13.774Z"}
+{"level":"info","message":"Invalid Sign up for: pranjali.shrivastava@sjsu.edu","timestamp":"2017-05-18T05:04:13.774Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:04:13.774Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'pranjali.shrivastava@sjsu.edu'","timestamp":"2017-05-18T05:04:16.931Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'pranjali.shrivastava@sjsu.edu'","timestamp":"2017-05-18T05:04:16.931Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:04:16.937Z"}
+{"level":"info","message":"New mail for id: pranjali.shrivastava@sjsu.edu","timestamp":"2017-05-18T05:04:16.937Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:04:16.938Z"}
+{"level":"info","message":"Query:: INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('Pranjali','pranjali.shrivastava@sjsu.edu','$2a$10$Ir8Y/0WTrBIuvaPSVkagAOfrHDJR841chZzveUd/nNE2XUL2BtwHO','as','1212-12-12')","timestamp":"2017-05-18T05:04:17.167Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('Pranjali','pranjali.shrivastava@sjsu.edu','$2a$10$Ir8Y/0WTrBIuvaPSVkagAOfrHDJR841chZzveUd/nNE2XUL2BtwHO','as','1212-12-12')---","timestamp":"2017-05-18T05:04:17.168Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:04:17.172Z"}
+{"level":"info","message":"Invalid Sign up for: pranjali.shrivastava@sjsu.edu","timestamp":"2017-05-18T05:04:17.172Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:04:17.173Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'pranjali.shrivastava@sjsu.edu'","timestamp":"2017-05-18T05:04:24.457Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'pranjali.shrivastava@sjsu.edu'","timestamp":"2017-05-18T05:04:24.457Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:04:24.461Z"}
+{"level":"info","message":"New mail for id: pranjali.shrivastava@sjsu.edu","timestamp":"2017-05-18T05:04:24.461Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:04:24.461Z"}
+{"level":"info","message":"Query:: INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('Pranjali','pranjali.shrivastava@sjsu.edu','$2a$10$LTbcqQFYw6lPeenFHitQd.TqVuv2.EqInyWWLg.EHaz3LMMdoe9Xu','as','1212-12-12')","timestamp":"2017-05-18T05:04:24.694Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('Pranjali','pranjali.shrivastava@sjsu.edu','$2a$10$LTbcqQFYw6lPeenFHitQd.TqVuv2.EqInyWWLg.EHaz3LMMdoe9Xu','as','1212-12-12')---","timestamp":"2017-05-18T05:04:24.694Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:04:24.698Z"}
+{"level":"info","message":"Invalid Sign up for: pranjali.shrivastava@sjsu.edu","timestamp":"2017-05-18T05:04:24.698Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:04:24.698Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'pranjali.shrivastava@sjsu.edu'","timestamp":"2017-05-18T05:04:38.663Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'pranjali.shrivastava@sjsu.edu'","timestamp":"2017-05-18T05:04:38.665Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:04:38.748Z"}
+{"level":"info","message":"New mail for id: pranjali.shrivastava@sjsu.edu","timestamp":"2017-05-18T05:04:38.750Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:04:38.753Z"}
+{"level":"info","message":"Query:: INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('Pranjali','pranjali.shrivastava@sjsu.edu','$2a$10$6eahUDGnpRYUZp3Nm2FeoObYYMNE7vH3355BhG7GtMQff9cG1J6SC','as','1212-12-12')","timestamp":"2017-05-18T05:04:38.984Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('Pranjali','pranjali.shrivastava@sjsu.edu','$2a$10$6eahUDGnpRYUZp3Nm2FeoObYYMNE7vH3355BhG7GtMQff9cG1J6SC','as','1212-12-12')---","timestamp":"2017-05-18T05:04:38.984Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:04:38.991Z"}
+{"level":"info","message":"Invalid Sign up for: pranjali.shrivastava@sjsu.edu","timestamp":"2017-05-18T05:04:38.991Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:04:38.992Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:04:41.069Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:04:41.069Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T05:04:41.078Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:04:41.078Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:13.015Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:13.015Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:05:13.020Z"}
+{"level":"info","message":"New mail for id: ssjena@gmail.com","timestamp":"2017-05-18T05:05:13.020Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:05:13.021Z"}
+{"level":"info","message":"Query:: INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$1ZsLqueedhEUjOk7hqNa7ODPqpp0obt2wpmtfES/B9dd3G.YZ0AQ6','ngvh','2015-02-06')","timestamp":"2017-05-18T05:05:13.251Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$1ZsLqueedhEUjOk7hqNa7ODPqpp0obt2wpmtfES/B9dd3G.YZ0AQ6','ngvh','2015-02-06')---","timestamp":"2017-05-18T05:05:13.252Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:05:13.257Z"}
+{"level":"info","message":"Invalid Sign up for: ssjena@gmail.com","timestamp":"2017-05-18T05:05:13.257Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:05:13.258Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:13.851Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:13.851Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:05:13.855Z"}
+{"level":"info","message":"New mail for id: ssjena@gmail.com","timestamp":"2017-05-18T05:05:13.857Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:05:13.858Z"}
+{"level":"info","message":"Query:: INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$Fb48Um29lT78jTbmbHYGcuRBgHx14v/gPxmY6sLbwp11igHVXyvNi','ngvh','2015-02-06')","timestamp":"2017-05-18T05:05:14.101Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$Fb48Um29lT78jTbmbHYGcuRBgHx14v/gPxmY6sLbwp11igHVXyvNi','ngvh','2015-02-06')---","timestamp":"2017-05-18T05:05:14.102Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:14.103Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:14.103Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:05:14.109Z"}
+{"level":"info","message":"Invalid Sign up for: ssjena@gmail.com","timestamp":"2017-05-18T05:05:14.109Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:05:14.109Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:05:14.110Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:05:14.110Z"}
+{"level":"info","message":"New mail for id: ssjena@gmail.com","timestamp":"2017-05-18T05:05:14.110Z"}
+{"level":"info","message":"Query:: INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$HPEn2jftliNoixyBuJwmmuIzD.l/7zqHckFV1lCkQbwBBpWeeHIt6','ngvh','2015-02-06')","timestamp":"2017-05-18T05:05:14.350Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$HPEn2jftliNoixyBuJwmmuIzD.l/7zqHckFV1lCkQbwBBpWeeHIt6','ngvh','2015-02-06')---","timestamp":"2017-05-18T05:05:14.350Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:14.351Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:14.352Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:14.351Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:14.352Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:05:14.358Z"}
+{"level":"info","message":"New mail for id: ssjena@gmail.com","timestamp":"2017-05-18T05:05:14.358Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:05:14.360Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:05:14.361Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:05:14.362Z"}
+{"level":"info","message":"Invalid Sign up for: ssjena@gmail.com","timestamp":"2017-05-18T05:05:14.361Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:05:14.363Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:05:14.364Z"}
+{"level":"info","message":"New mail for id: ssjena@gmail.com","timestamp":"2017-05-18T05:05:14.363Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$nXpiq6MblLLMkBI156T9Ye36yLTBBzGhFGsbhNr1z.Tqd7vXfB1QG','ngvh','2015-02-06')---","timestamp":"2017-05-18T05:05:14.595Z"}
+{"level":"info","message":"Query:: INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$nXpiq6MblLLMkBI156T9Ye36yLTBBzGhFGsbhNr1z.Tqd7vXfB1QG','ngvh','2015-02-06')","timestamp":"2017-05-18T05:05:14.595Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$Jh8Snmxx.wCzF6RxPNkiJOqvIL/CfPf1rsjgTBqVRK.VetZjJuHg.','ngvh','2015-02-06')---","timestamp":"2017-05-18T05:05:14.826Z"}
+{"level":"info","message":"Query:: INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$Jh8Snmxx.wCzF6RxPNkiJOqvIL/CfPf1rsjgTBqVRK.VetZjJuHg.','ngvh','2015-02-06')","timestamp":"2017-05-18T05:05:14.826Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:14.827Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:05:14.827Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:05:14.831Z"}
+{"level":"info","message":"Invalid Sign up for: ssjena@gmail.com","timestamp":"2017-05-18T05:05:14.831Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:05:14.831Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:05:14.833Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:05:14.834Z"}
+{"level":"info","message":"Invalid Sign up for: ssjena@gmail.com","timestamp":"2017-05-18T05:05:14.833Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:05:14.859Z"}
+{"level":"info","message":"New mail for id: ssjena@gmail.com","timestamp":"2017-05-18T05:05:14.859Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:05:14.859Z"}
+{"level":"info","message":"Query:: INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$hdn5o4vcklnPt8ObP7qp/OXBDDlwcHzm0zVMI0k1a0y3qkGOPlkhi','ngvh','2015-02-06')","timestamp":"2017-05-18T05:05:15.086Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchi','ssjena@gmail.com','$2a$10$hdn5o4vcklnPt8ObP7qp/OXBDDlwcHzm0zVMI0k1a0y3qkGOPlkhi','ngvh','2015-02-06')---","timestamp":"2017-05-18T05:05:15.086Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:05:15.091Z"}
+{"level":"info","message":"Invalid Sign up for: ssjena@gmail.com","timestamp":"2017-05-18T05:05:15.092Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:05:15.093Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:08:22.657Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:08:22.659Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T05:08:22.792Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:08:22.792Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:08:56.080Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'ssjena@gmail.com'","timestamp":"2017-05-18T05:08:56.081Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:08:56.088Z"}
+{"level":"info","message":"New mail for id: ssjena@gmail.com","timestamp":"2017-05-18T05:08:56.089Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:08:56.090Z"}
+{"level":"info","message":"Query:: INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchishree','ssjena@gmail.com','$2a$10$goVUY2guug6RYhuC0eTCDevRRbR34NmKc/KO3JdRVmkVPd.slfkOm','san fernando','2015-02-06')","timestamp":"2017-05-18T05:08:56.329Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO user (FirstName, EmailId, Password, Address,DateOfBirth) VALUES ('suchishree','ssjena@gmail.com','$2a$10$goVUY2guug6RYhuC0eTCDevRRbR34NmKc/KO3JdRVmkVPd.slfkOm','san fernando','2015-02-06')---","timestamp":"2017-05-18T05:08:56.329Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:08:56.462Z"}
+{"level":"info","message":"Valid Sign up for: ssjena@gmail.com","timestamp":"2017-05-18T05:08:56.463Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:08:56.464Z"}
+{"level":"info","message":"Signin request from: ssjena@gmail.com","timestamp":"2017-05-18T05:09:10.175Z"}
+{"level":"info","message":"SQL Query::select UserId,Password from user where EmailId = 'ssjena@gmail.com';","timestamp":"2017-05-18T05:09:10.176Z"}
+{"level":"info","message":"select UserId,Password from user where EmailId = ssjena@gmail.com","timestamp":"2017-05-18T05:09:10.176Z"}
+{"level":"info","message":"DB Results:[object Object]","timestamp":"2017-05-18T05:09:10.183Z"}
+{"level":"info","message":"Successful Login for = ssjena@gmail.com userId: 12","timestamp":"2017-05-18T05:09:10.410Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:09:10.411Z"}
+{"level":"info","message":"Session Initialized with email : ssjena@gmail.com","timestamp":"2017-05-18T05:09:10.411Z"}
+{"level":"info","message":"userid :: 12","timestamp":"2017-05-18T05:09:10.411Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:09:10.418Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:09:10.419Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T05:09:10.428Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:09:10.428Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:12:24.684Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:12:24.684Z"}
+{"level":"error","message":"ERROR: ER_NO_SUCH_TABLE: Table 'hakunamatata.item' doesn't exist","timestamp":"2017-05-18T05:12:24.696Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:12:24.697Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'GEEK'","timestamp":"2017-05-18T05:12:26.838Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'GEEK'","timestamp":"2017-05-18T05:12:26.837Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:12:26.847Z"}
+{"level":"info","message":"No items to display for user : 12","timestamp":"2017-05-18T05:12:26.847Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:12:26.848Z"}
+{"level":"info","message":"Sign out request for userId: 12","timestamp":"2017-05-18T05:12:28.731Z"}
+{"level":"info","message":"---SQL Query ::UPDATE user\tSET LastLoggedIn = NOW() WHERE UserId = 12;---","timestamp":"2017-05-18T05:12:28.731Z"}
+{"level":"info","message":"Query:: UPDATE user\tSET LastLoggedIn = NOW() WHERE UserId = 12;","timestamp":"2017-05-18T05:12:28.731Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:12:28.737Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'GEEK'","timestamp":"2017-05-18T05:22:41.943Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'GEEK'","timestamp":"2017-05-18T05:22:41.945Z"}
+{"level":"info","message":"DB Results:[object Object]","timestamp":"2017-05-18T05:22:42.059Z"}
+{"level":"info","message":"Results are loaded for user : undefined","timestamp":"2017-05-18T05:22:42.063Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:22:42.065Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,Eventdate,images from events where Qty>0 and EventType = 'FREAK'","timestamp":"2017-05-18T05:24:20.460Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,Eventdate,images from events where Qty>0 and EventType = 'FREAK'","timestamp":"2017-05-18T05:24:20.460Z"}
+{"level":"info","message":"DB Results:[object Object],[object Object],[object Object]","timestamp":"2017-05-18T05:24:20.471Z"}
+{"level":"info","message":"Results are loaded for user : undefined","timestamp":"2017-05-18T05:24:20.473Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:24:20.474Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'LOVER'","timestamp":"2017-05-18T05:24:54.265Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'LOVER'","timestamp":"2017-05-18T05:24:54.265Z"}
+{"level":"info","message":"DB Results:[object Object],[object Object],[object Object]","timestamp":"2017-05-18T05:24:54.271Z"}
+{"level":"info","message":"Results are loaded for user : undefined","timestamp":"2017-05-18T05:24:54.274Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:24:54.276Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:35:58.238Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:35:58.239Z"}
+{"level":"info","message":"DB Results:[object Object],[object Object],[object Object],[object Object]","timestamp":"2017-05-18T05:35:58.351Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:37:48.510Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:37:48.511Z"}
+{"level":"info","message":"DB Results:[object Object],[object Object],[object Object],[object Object]","timestamp":"2017-05-18T05:37:48.634Z"}
+{"level":"info","message":"Query:: INSERT INTO `hakunamatata`.`auctionwinners`(`WinnerId`,`ItemId`,`IsPaymentDone`)(select b.BidderId, b.ItemId, 0 as IsPaymentDone from bidderlist as b where ItemId = 7 and b.BidAmount = (\tselect max(b.BidAmount)\tfrom bidderlist as b left join item as i\ton b.ItemId=i.ItemId\twhere i.IsBidItem =1  and i.AuctionEndDate < now() and i.ItemId=7));","timestamp":"2017-05-18T05:37:48.641Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO `hakunamatata`.`auctionwinners`(`WinnerId`,`ItemId`,`IsPaymentDone`)(select b.BidderId, b.ItemId, 0 as IsPaymentDone from bidderlist as b where ItemId = 7 and b.BidAmount = (\tselect max(b.BidAmount)\tfrom bidderlist as b left join item as i\ton b.ItemId=i.ItemId\twhere i.IsBidItem =1  and i.AuctionEndDate < now() and i.ItemId=7));---","timestamp":"2017-05-18T05:37:48.642Z"}
+{"level":"info","message":"---SQL Query ::update Item set sold = 1 where ItemId = 7---","timestamp":"2017-05-18T05:37:48.645Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO `hakunamatata`.`auctionwinners`(`WinnerId`,`ItemId`,`IsPaymentDone`)(select b.BidderId, b.ItemId, 0 as IsPaymentDone from bidderlist as b where ItemId = 8 and b.BidAmount = (\tselect max(b.BidAmount)\tfrom bidderlist as b left join item as i\ton b.ItemId=i.ItemId\twhere i.IsBidItem =1  and i.AuctionEndDate < now() and i.ItemId=8));---","timestamp":"2017-05-18T05:37:48.646Z"}
+{"level":"info","message":"---SQL Query ::update Item set sold = 1 where ItemId = 8---","timestamp":"2017-05-18T05:37:48.648Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO `hakunamatata`.`auctionwinners`(`WinnerId`,`ItemId`,`IsPaymentDone`)(select b.BidderId, b.ItemId, 0 as IsPaymentDone from bidderlist as b where ItemId = 12 and b.BidAmount = (\tselect max(b.BidAmount)\tfrom bidderlist as b left join item as i\ton b.ItemId=i.ItemId\twhere i.IsBidItem =1  and i.AuctionEndDate < now() and i.ItemId=12));---","timestamp":"2017-05-18T05:37:48.648Z"}
+{"level":"info","message":"---SQL Query ::update Item set sold = 1 where ItemId = 12---","timestamp":"2017-05-18T05:37:48.650Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO `hakunamatata`.`auctionwinners`(`WinnerId`,`ItemId`,`IsPaymentDone`)(select b.BidderId, b.ItemId, 0 as IsPaymentDone from bidderlist as b where ItemId = 14 and b.BidAmount = (\tselect max(b.BidAmount)\tfrom bidderlist as b left join item as i\ton b.ItemId=i.ItemId\twhere i.IsBidItem =1  and i.AuctionEndDate < now() and i.ItemId=14));---","timestamp":"2017-05-18T05:37:48.651Z"}
+{"level":"info","message":"---SQL Query ::update Item set sold = 1 where ItemId = 14---","timestamp":"2017-05-18T05:37:48.652Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:37:48.652Z"}
+{"level":"info","message":"Query:: update Item set sold = 1 where ItemId = 7","timestamp":"2017-05-18T05:37:48.644Z"}
+{"level":"info","message":"Query:: INSERT INTO `hakunamatata`.`auctionwinners`(`WinnerId`,`ItemId`,`IsPaymentDone`)(select b.BidderId, b.ItemId, 0 as IsPaymentDone from bidderlist as b where ItemId = 8 and b.BidAmount = (\tselect max(b.BidAmount)\tfrom bidderlist as b left join item as i\ton b.ItemId=i.ItemId\twhere i.IsBidItem =1  and i.AuctionEndDate < now() and i.ItemId=8));","timestamp":"2017-05-18T05:37:48.646Z"}
+{"level":"info","message":"Query:: update Item set sold = 1 where ItemId = 8","timestamp":"2017-05-18T05:37:48.647Z"}
+{"level":"info","message":"Query:: INSERT INTO `hakunamatata`.`auctionwinners`(`WinnerId`,`ItemId`,`IsPaymentDone`)(select b.BidderId, b.ItemId, 0 as IsPaymentDone from bidderlist as b where ItemId = 12 and b.BidAmount = (\tselect max(b.BidAmount)\tfrom bidderlist as b left join item as i\ton b.ItemId=i.ItemId\twhere i.IsBidItem =1  and i.AuctionEndDate < now() and i.ItemId=12));","timestamp":"2017-05-18T05:37:48.648Z"}
+{"level":"info","message":"Query:: update Item set sold = 1 where ItemId = 12","timestamp":"2017-05-18T05:37:48.648Z"}
+{"level":"info","message":"Query:: INSERT INTO `hakunamatata`.`auctionwinners`(`WinnerId`,`ItemId`,`IsPaymentDone`)(select b.BidderId, b.ItemId, 0 as IsPaymentDone from bidderlist as b where ItemId = 14 and b.BidAmount = (\tselect max(b.BidAmount)\tfrom bidderlist as b left join item as i\ton b.ItemId=i.ItemId\twhere i.IsBidItem =1  and i.AuctionEndDate < now() and i.ItemId=14));","timestamp":"2017-05-18T05:37:48.651Z"}
+{"level":"info","message":"Query:: update Item set sold = 1 where ItemId = 14","timestamp":"2017-05-18T05:37:48.652Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:37:48.886Z"}
+{"level":"info","message":"New bidder successfully added to winners list! for Item:14","timestamp":"2017-05-18T05:37:48.887Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:37:48.887Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:37:48.887Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:37:48.888Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:37:48.888Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:37:48.888Z"}
+{"level":"info","message":"New bidder successfully added to winners list! for Item:12","timestamp":"2017-05-18T05:37:48.888Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:37:48.889Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:37:48.889Z"}
+{"level":"info","message":"New bidder successfully added to winners list! for Item:7","timestamp":"2017-05-18T05:37:48.889Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:37:48.932Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:37:48.933Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:37:48.938Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:37:48.940Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:37:48.944Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:37:48.947Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:37:49.008Z"}
+{"level":"error","message":"ERROR! Insertion not done for auction results.","timestamp":"2017-05-18T05:37:49.009Z"}
+{"level":"info","message":"Signin request from: ssjena@gmail.com","timestamp":"2017-05-18T05:39:08.641Z"}
+{"level":"info","message":"SQL Query::select UserId,Password from user where EmailId = 'ssjena@gmail.com';","timestamp":"2017-05-18T05:39:08.643Z"}
+{"level":"info","message":"select UserId,Password from user where EmailId = ssjena@gmail.com","timestamp":"2017-05-18T05:39:08.643Z"}
+{"level":"info","message":"DB Results:[object Object]","timestamp":"2017-05-18T05:39:08.742Z"}
+{"level":"info","message":"Successful Login for = ssjena@gmail.com userId: 12","timestamp":"2017-05-18T05:39:08.973Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:39:08.975Z"}
+{"level":"info","message":"Session Initialized with email : ssjena@gmail.com","timestamp":"2017-05-18T05:39:08.974Z"}
+{"level":"info","message":"userid :: 12","timestamp":"2017-05-18T05:39:08.974Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:39:08.982Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:39:08.982Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:39:08.993Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T05:39:08.994Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:39:08.994Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'GEEK'","timestamp":"2017-05-18T05:39:11.120Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and EventType = 'GEEK'","timestamp":"2017-05-18T05:39:11.120Z"}
+{"level":"info","message":"DB Results:[object Object],[object Object]","timestamp":"2017-05-18T05:39:11.126Z"}
+{"level":"info","message":"Results are loaded for user : 12","timestamp":"2017-05-18T05:39:11.126Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:39:11.128Z"}
+{"level":"info","message":"Sign out request for userId: 12","timestamp":"2017-05-18T05:39:13.352Z"}
+{"level":"info","message":"---SQL Query ::UPDATE user\tSET LastLoggedIn = NOW() WHERE UserId = 12;---","timestamp":"2017-05-18T05:39:13.353Z"}
+{"level":"info","message":"Query:: UPDATE user\tSET LastLoggedIn = NOW() WHERE UserId = 12;","timestamp":"2017-05-18T05:39:13.352Z"}
+{"level":"info","message":"Error in getting results","timestamp":"2017-05-18T05:39:13.365Z"}
+{"level":"info","message":"Signin request from: ssjena@gmail.com","timestamp":"2017-05-18T05:43:23.877Z"}
+{"level":"info","message":"SQL Query::select UserId,Password from user where EmailId = 'ssjena@gmail.com';","timestamp":"2017-05-18T05:43:23.878Z"}
+{"level":"info","message":"select UserId,Password from user where EmailId = ssjena@gmail.com","timestamp":"2017-05-18T05:43:23.878Z"}
+{"level":"info","message":"DB Results:[object Object]","timestamp":"2017-05-18T05:43:23.984Z"}
+{"level":"info","message":"Successful Login for = ssjena@gmail.com userId: 12","timestamp":"2017-05-18T05:43:24.212Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:43:24.214Z"}
+{"level":"info","message":"Session Initialized with email : ssjena@gmail.com","timestamp":"2017-05-18T05:43:24.212Z"}
+{"level":"info","message":"userid :: 12","timestamp":"2017-05-18T05:43:24.212Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'undefined'","timestamp":"2017-05-18T05:44:05.407Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'undefined'","timestamp":"2017-05-18T05:44:05.407Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:44:05.426Z"}
+{"level":"info","message":"New mail for id: undefined","timestamp":"2017-05-18T05:44:05.427Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:44:05.428Z"}
+{"level":"info","message":"Query:: INSERT INTO events (EventName, EventDescription, EventType, Price, Qty) VALUES ('Shopping Festival','At Great MALL','FREAK','20','10')","timestamp":"2017-05-18T05:44:05.436Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO events (EventName, EventDescription, EventType, Price, Qty) VALUES ('Shopping Festival','At Great MALL','FREAK','20','10')---","timestamp":"2017-05-18T05:44:05.437Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:44:05.579Z"}
+{"level":"info","message":"Valid Sign up for: ","timestamp":"2017-05-18T05:44:05.580Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:44:05.588Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:44:05.617Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:44:05.617Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:44:05.645Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T05:44:05.647Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:44:05.648Z"}
+{"level":"info","message":"Sign out request for userId: 12","timestamp":"2017-05-18T05:44:05.938Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:45:32.786Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:45:32.786Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:45:32.797Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T05:45:32.798Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:45:32.799Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,Eventdate,images from events where Qty>0 and EventType = 'FREAK'","timestamp":"2017-05-18T05:45:39.130Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,Eventdate,images from events where Qty>0 and EventType = 'FREAK'","timestamp":"2017-05-18T05:45:39.129Z"}
+{"level":"info","message":"DB Results:[object Object],[object Object],[object Object],[object Object]","timestamp":"2017-05-18T05:45:39.140Z"}
+{"level":"info","message":"Results are loaded for user : undefined","timestamp":"2017-05-18T05:45:39.142Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:45:39.145Z"}
+{"level":"info","message":"Signin request from: ssjena@gmail.com","timestamp":"2017-05-18T05:45:47.589Z"}
+{"level":"info","message":"SQL Query::select UserId,Password from user where EmailId = 'ssjena@gmail.com';","timestamp":"2017-05-18T05:45:47.589Z"}
+{"level":"info","message":"select UserId,Password from user where EmailId = ssjena@gmail.com","timestamp":"2017-05-18T05:45:47.589Z"}
+{"level":"info","message":"DB Results:[object Object]","timestamp":"2017-05-18T05:45:47.596Z"}
+{"level":"info","message":"Successful Login for = ssjena@gmail.com userId: 12","timestamp":"2017-05-18T05:45:47.832Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:45:47.833Z"}
+{"level":"info","message":"Session Initialized with email : ssjena@gmail.com","timestamp":"2017-05-18T05:45:47.833Z"}
+{"level":"info","message":"userid :: 12","timestamp":"2017-05-18T05:45:47.833Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'undefined'","timestamp":"2017-05-18T05:46:45.275Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'undefined'","timestamp":"2017-05-18T05:46:45.275Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:46:45.280Z"}
+{"level":"info","message":"New mail for id: undefined","timestamp":"2017-05-18T05:46:45.280Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:46:45.281Z"}
+{"level":"info","message":"Query:: INSERT INTO events (EventName, EventDescription, EventType, Price, Qty) VALUES ('Bungee jumping','Sky Tower','FREAK','30','10')","timestamp":"2017-05-18T05:46:45.287Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO events (EventName, EventDescription, EventType, Price, Qty) VALUES ('Bungee jumping','Sky Tower','FREAK','30','10')---","timestamp":"2017-05-18T05:46:45.287Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:46:45.430Z"}
+{"level":"info","message":"Valid Sign up for: ","timestamp":"2017-05-18T05:46:45.430Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:46:45.431Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:46:45.467Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:46:45.467Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:46:45.488Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T05:46:45.489Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:46:45.490Z"}
+{"level":"info","message":"Sign out request for userId: 12","timestamp":"2017-05-18T05:46:45.792Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'undefined'","timestamp":"2017-05-18T05:50:18.856Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'undefined'","timestamp":"2017-05-18T05:50:18.856Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:50:18.862Z"}
+{"level":"info","message":"New mail for id: undefined","timestamp":"2017-05-18T05:50:18.862Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:50:18.862Z"}
+{"level":"info","message":"Query:: INSERT INTO events (EventName, EventDescription, EventType, Price, Qty) VALUES ('Shopping Festival','at Great Mall','FREAK','20','10')","timestamp":"2017-05-18T05:50:18.869Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO events (EventName, EventDescription, EventType, Price, Qty) VALUES ('Shopping Festival','at Great Mall','FREAK','20','10')---","timestamp":"2017-05-18T05:50:18.870Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:50:19.017Z"}
+{"level":"info","message":"Valid Sign up for: ","timestamp":"2017-05-18T05:50:19.019Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:50:19.020Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:50:19.048Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:50:19.049Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:50:19.091Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T05:50:19.092Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:50:19.093Z"}
+{"level":"info","message":"Signin request from: ssjena@gmail.com","timestamp":"2017-05-18T05:51:30.051Z"}
+{"level":"info","message":"SQL Query::select UserId,Password from user where EmailId = 'ssjena@gmail.com';","timestamp":"2017-05-18T05:51:30.051Z"}
+{"level":"info","message":"select UserId,Password from user where EmailId = ssjena@gmail.com","timestamp":"2017-05-18T05:51:30.051Z"}
+{"level":"info","message":"DB Results:[object Object]","timestamp":"2017-05-18T05:51:30.057Z"}
+{"level":"info","message":"Successful Login for = ssjena@gmail.com userId: 12","timestamp":"2017-05-18T05:51:30.292Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:51:30.293Z"}
+{"level":"info","message":"Session Initialized with email : ssjena@gmail.com","timestamp":"2017-05-18T05:51:30.292Z"}
+{"level":"info","message":"userid :: 12","timestamp":"2017-05-18T05:51:30.292Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:51:30.301Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:51:30.302Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:51:30.309Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T05:51:30.315Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:51:30.315Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and status = 'TEMP'","timestamp":"2017-05-18T05:51:30.510Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and status = 'TEMP'","timestamp":"2017-05-18T05:51:30.511Z"}
+{"level":"info","message":"DB Results:[object Object]","timestamp":"2017-05-18T05:51:30.520Z"}
+{"level":"info","message":"Results are loaded for user : 12","timestamp":"2017-05-18T05:51:30.521Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:51:30.522Z"}
+{"level":"info","message":"Query:: UPDATE events SET status = 'PERM' WHERE EventId = 27","timestamp":"2017-05-18T05:51:33.202Z"}
+{"level":"info","message":"SQL Query::UPDATE events SET status = 'PERM' WHERE EventId = 27","timestamp":"2017-05-18T05:51:33.202Z"}
+{"level":"info","message":"DB Results:[object Object]","timestamp":"2017-05-18T05:51:33.347Z"}
+{"level":"info","message":"No items to display for usrId","timestamp":"2017-05-18T05:51:33.349Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:51:33.351Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:51:33.371Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:51:33.371Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:51:33.389Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T05:51:33.389Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:51:33.389Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and status = 'TEMP'","timestamp":"2017-05-18T05:51:33.477Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,EventDate,images from events where Qty>0 and status = 'TEMP'","timestamp":"2017-05-18T05:51:33.478Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:51:33.487Z"}
+{"level":"info","message":"No items to display for user : 12","timestamp":"2017-05-18T05:51:33.487Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:51:33.487Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:51:46.658Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:51:46.658Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:51:46.669Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T05:51:46.669Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:51:46.669Z"}
+{"level":"info","message":"Query:: select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,Eventdate,images from events where Qty>0 and EventType = 'FREAK'","timestamp":"2017-05-18T05:51:50.123Z"}
+{"level":"info","message":"SQL Query::select EventId,EventName,EventDescription,EventType,OrganizerId,Price,Qty,Eventdate,images from events where Qty>0 and EventType = 'FREAK'","timestamp":"2017-05-18T05:51:50.124Z"}
+{"level":"info","message":"DB Results:[object Object],[object Object],[object Object],[object Object]","timestamp":"2017-05-18T05:51:50.132Z"}
+{"level":"info","message":"Results are loaded for user : 12","timestamp":"2017-05-18T05:51:50.133Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:51:50.134Z"}
+{"level":"info","message":"Sign out request for userId: 12","timestamp":"2017-05-18T05:54:14.009Z"}
+{"level":"info","message":"Signin request from: ssjena@gmail.com","timestamp":"2017-05-18T05:54:20.782Z"}
+{"level":"info","message":"select UserId,Password from user where EmailId = ssjena@gmail.com","timestamp":"2017-05-18T05:54:20.782Z"}
+{"level":"info","message":"SQL Query::select UserId,Password from user where EmailId = 'ssjena@gmail.com';","timestamp":"2017-05-18T05:54:20.783Z"}
+{"level":"info","message":"DB Results:[object Object]","timestamp":"2017-05-18T05:54:20.875Z"}
+{"level":"info","message":"Successful Login for = ssjena@gmail.com userId: 12","timestamp":"2017-05-18T05:54:21.104Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:54:21.106Z"}
+{"level":"info","message":"Session Initialized with email : ssjena@gmail.com","timestamp":"2017-05-18T05:54:21.105Z"}
+{"level":"info","message":"userid :: 12","timestamp":"2017-05-18T05:54:21.105Z"}
+{"level":"info","message":"Query:: select EmailId from user where EmailId = 'undefined'","timestamp":"2017-05-18T05:54:55.675Z"}
+{"level":"info","message":"SQL Query::select EmailId from user where EmailId = 'undefined'","timestamp":"2017-05-18T05:54:55.675Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:54:55.681Z"}
+{"level":"info","message":"New mail for id: undefined","timestamp":"2017-05-18T05:54:55.681Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:54:55.682Z"}
+{"level":"info","message":"Query:: INSERT INTO events (EventName, EventDescription, EventType, Price, Qty) VALUES ('Bungee Jumping','Sky Tower','ADVENTURE','30','15')","timestamp":"2017-05-18T05:54:55.689Z"}
+{"level":"info","message":"---SQL Query ::INSERT INTO events (EventName, EventDescription, EventType, Price, Qty) VALUES ('Bungee Jumping','Sky Tower','ADVENTURE','30','15')---","timestamp":"2017-05-18T05:54:55.689Z"}
+{"level":"error","message":"Database Results :: [object Object]","timestamp":"2017-05-18T05:54:55.843Z"}
+{"level":"info","message":"Valid Sign up for: ","timestamp":"2017-05-18T05:54:55.844Z"}
+{"level":"info","message":"Store Connection Closed","timestamp":"2017-05-18T05:54:55.845Z"}
+{"level":"info","message":"Query:: select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:54:55.877Z"}
+{"level":"info","message":"SQL Query::select ItemId from item as i where i.IsBidItem =1  and i.AuctionEndDate < now() and sold = 0","timestamp":"2017-05-18T05:54:55.878Z"}
+{"level":"info","message":"DB Results:","timestamp":"2017-05-18T05:54:55.901Z"}
+{"level":"info","message":"Item doesn't for exist in auction completed list","timestamp":"2017-05-18T05:54:55.903Z"}
+{"level":"info","message":"\nConnection closed..","timestamp":"2017-05-18T05:54:55.904Z"}
+{"level":"info","message":"Sign out request for userId: 12","timestamp":"2017-05-18T05:54:56.151Z"}

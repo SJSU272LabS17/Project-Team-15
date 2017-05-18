@@ -1,0 +1,132 @@
+<html>
+<head>
+	<title>Events for Friends</title>
+
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+
+
+	<!-- Script for Angular JS -->
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+
+
+	<!--  <script src="public/scripts/ProductGrid.js"></script>-->
+	<script src="/angularJS/friendsEvents.js"></script>
+	<!-- <script src="/angularJS/productsForAuction.js"></script> -->
+</head>
+
+<body ng-app="friendsEvents">
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/"><img src="images/HM1.png"/></a>
+		</div>
+
+		<ul class="nav navbar-nav navbar-right">
+			<!-- <li><a href="../userProfile#/"><i class="fa fa-user"></i> User Profile</a></li> -->
+			<!-- <li><a href="../userProfile#/cart"><i class="fa fa-shopping-cart"></i> Cart</a></li> -->
+			<!--<li> <a href="../userProfile#/cart"> <i class="fa fa-sign-out"></i> sign Out</a></li>-->
+			<li><a href="/myBagPack"><i class="fa fa-shopping-cart"></i>My BagPack</a></li>
+			<li> <a href="/myHome"> <i class="fa fa-sign-out"></i> sign Out</a></li>
+
+		</ul>
+
+	</div>
+</nav>
+
+
+
+<div ng-controller="friendsEvents">
+
+	<!--<a class="btn btn-success" ng-click= "signout()">sign Out</a>-->
+	<!-- <div  style="background-image:url(/images/geekBackground.jpg)"> -->
+	<div style="background-image:url(/images/friendsbg.jpg)">
+		<!-- <img class="card-img-top img-fluid" src="/images/geekBackground.jpg" alt="Free Bootstrap Portfolio Template"> -->
+		<div class="container">
+			<div class="well well-sm" data-animation="animated fadeInLeft">
+				<h2><strong>Want to add your own event... <a href="/eventCreationLogin"> <i class="fa fa-sign-out" >click here</i></a></strong></h2>
+			</div>
+			<div id="products" class="row list-group">
+				<div class="item  col-xs-4 col-lg-4"  ng-repeat="event in events">
+					<img class="group list-group-image" src="/images/{{event.images}}" height="300" width="350" alt="" />
+					<div data-animation="animated fadeInLeft">
+						<!--<img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />-->
+
+						<div class="caption">
+							<h3 class="group inner list-group-item-heading">
+								<b class = "thumbnail">{{event.EventName}}</b></h3>
+							<p class="group inner list-group-item-text">
+							<h4 class = "thumbnail"><i>{{event.EventDescription}}</i></h4></p>
+							</br>
+							<div class="row">
+								<div class="col-xs-12 col-md-6">
+									<!-- <p><h4 class = "thumbnail"><b><i>Tickets Left:</i> {{event.Qty}}</b></h4>
+									</p> -->
+									<p class="lead">
+										<b class = "thumbnail"><i>Its just:</i>  ${{event.Price}}</b></p>
+									<p class="lead">
+										<b class = "thumbnail"><i>Event Date:</i> {{event.EventDate}}</b></p>
+								</div>
+								<div class="col-xs-12 col-md-6">
+									<a class="btn btn-success" ng-click= "AddToCart(event.EventId)"><i>Buy Tickets</i></a>
+									<!-- <a href="#" class="btn btn-ghost btn-lg">Buy Tickets!</a> -->
+								</div>
+							</div>
+							</br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	<!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<!--	<span class="sr-only">Previous</span>-->
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	<!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<!--	<span class="sr-only">Next</span>-->
+</a>
+</div>
+<!-- Section Footer
+================================================== -->
+<section class="bg-dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 class="bottombrand wow flipInX">Hakuna Matata</h1>
+				<p>
+					As we say, It Means NO WORRIES!!!
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- jQuery -->
+<script src="/temp/jquery.js"></script>
+<script src="/temp/bootstrap.min.js"></script>
+<script src="/temp/parallax.js"></script>
+<script src="/temp/contact.js"></script>
+<script src="/temp/countto.js"></script>
+<script src="/temp/jquery.easing.min.js"></script>
+<script src="/temp/wow.min.js"></script>
+<script src="/temp/common.js"></script>
+</body></body>
+</html>

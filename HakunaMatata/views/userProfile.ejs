@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+	<title>Hakuna Matata</title>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+
+<!-- <link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+ -->	
+
+	<script	src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+<!-- 	<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+ -->    
+
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+
+  <!-- SPELLS -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+ 
+<!-- <script src="/scripts/angular-route.min.js"></script> -->
+<script src="/scripts/ProductGrid.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+
+
+
+
+<script src="/angularJS/userProfile.js"></script>
+<script src="/angularJS/accountDetails.js"></script>
+<script src="/angularJS/cart.js"></script>
+<script src="/angularJS/sellItem.js"></script>
+<script src="/angularJS/activity.js"></script>
+<script src="/angularJS/auctionWon.js"></script>
+
+</head>
+<body ng-app="userProfile">
+
+		<style type="text/css">
+		form.tab-form-demo .tab-pane {
+			margin: 20px 20px;
+		}
+		</style>
+	<div>
+
+		  <nav class="navbar navbar-default navbar-fixed-top">
+		    <div class="container">
+		      <div class="navbar-header">
+		        <a class="navbar-brand" href="/"><img src="images/HM1.png"/></a>
+		      </div>
+		
+		      <ul class="nav navbar-nav navbar-right">
+		       <!-- <li><a href="#accountDetails"><i class="fa fa-user"></i> Account Details</a></li> -->
+		        <li><a href="/myBagPack"><i class="fa fa-shopping-cart"></i> My BagPack</a></li>
+				  <li> <a href="/myHome"> <i class="fa fa-sign-out"></i> sign Out</a></li>
+		        
+		        
+		      </ul>
+		    </div>
+		  </nav>
+
+	  <div id="main">
+	    <div ng-view></div>
+	  </div>	
+	</div>
+</body>
+</html>

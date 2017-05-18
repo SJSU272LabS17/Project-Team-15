@@ -1,0 +1,186 @@
+
+<div class="container">
+
+ <div class="well well-sm">
+     <h2><strong>Bought products</strong></h2>
+ </div>
+
+
+    <div class="row" ng-if="disableBuyActivity == false;">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Product History</th>
+                        <th>Quantity</th>
+                        <th class="text-center">Price</th>
+                        <th class="text-center">Total</th>
+                        <th class="text-center">Purchase date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat= "item in allItemsInActivity">
+                        <td class="col-sm-8 col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="images/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="#">{{item.ItemName}}</a></h4>
+                                <h5 class="media-heading"> <a href="#">{{item.ItemDescription}}</a></h5>
+                                <span>Seller: </span><span class="text-success"><strong>{{item.FirstName}}</strong></span>
+                            </div>
+                        </div></td>
+                        
+                        <!-- <input type="email" class="form-control" id="exampleInputEmail1" value="3"> -->
+                        <td class="col-sm-1 col-md-1 text-center"><strong>{{item.Qty}}</strong></td>
+                        
+                        
+                        <td class="col-sm-1 col-md-1 text-center"><strong>{{item.Price}}</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>{{item.Price}}</strong></td>
+                        
+                        <td class="col-sm-1 col-md-1" style="text-align: center"><strong>{{item.Solddate | date:'medium'}}</strong></td>
+                    </tr>
+                  
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    
+    
+ <div class="well well-sm">
+     <h2><strong>Sold products</strong></h2>
+ </div>
+
+
+    <div class="row" ng-if="disableSellActivity == false;">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Product History</th>
+                        <th>Quantity</th>
+                        <th class="text-center">Buyer</th>
+                        <th class="text-center">Price</th>
+                        <th class="text-center">Sold date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat= "item in allSoldProducts">
+                        <td class="col-sm-8 col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="images/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="#">{{item.ItemName}}</a></h4>
+                                <h5 class="media-heading"> by <a href="#">{{item.ItemDescription}}</a></h5>
+                                <span>Buyer: </span><span class="text-success"><strong>{{item.Buyer}}</strong></span>
+                            </div>
+                        </div></td>
+                        
+                        <!-- <input type="email" class="form-control" id="exampleInputEmail1" value="3"> -->
+                        <td class="col-sm-1 col-md-1 text-center"><strong>{{item.Qty}}</strong></td>
+                        
+                        
+                        <td class="col-sm-1 col-md-1 text-center"><strong>{{item.Buyer}}</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>{{item.Price}}</strong></td>
+                        
+                        <td class="col-sm-1 col-md-1" style="text-align: center"><strong>{{item.SoldDate | date:'medium'}}</td></strong>
+                    </tr>
+                  
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+ <div class="well well-sm">
+     <h2><strong>All Bidding activity</strong></h2>
+ </div>
+
+
+    <div class="row" ng-if="disableBidActivity == false;">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Product History</th>
+                       <!--  <th>Quantity</th> -->
+                        <th class="text-center">Bid Amount</th>
+                        <th class="text-center">Base Price</th>
+                        
+                        <th class="text-center">BidTime</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat= "item in AllUserBiddingActivity">
+                        <td class="col-sm-8 col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="images/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="#">{{item.ItemName}}</a></h4>
+                                <h5 class="media-heading"> by <a href="#">{{item.ItemDescription}}</a></h5>
+                                
+                            </div>
+                        </div></td>
+                        
+                        <!-- <input type="email" class="form-control" id="exampleInputEmail1" value="3"> -->
+                        <!-- <td class="col-sm-1 col-md-1 text-center"><strong>{{item.Qty}}</strong></td> -->
+                        
+                        
+                        <td class="col-sm-1 col-md-1 text-center"><strong>{{item.BidAmount}}</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>{{item.Price}}</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>{{item.BidTime| date:'medium'}}</strong></td>
+                        
+                    </tr>
+                  
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="well well-sm">
+        <h2> <strong>All Items bought from bidding</strong></h2>
+    </div>
+
+
+    <div class="row" ng-if="disableAuctionWonActivity == false;">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>Product History</th>
+                    <!--  <th>Quantity</th> -->
+                    <th class="text-center">Base Price</th>
+                    <th class="text-center">Payment date</th>
+
+                    <th class="text-center"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat= "item in AllUserAuctionsWonActivity">
+                    <td class="col-sm-8 col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="images/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="#">{{item.ItemName}}</a></h4>
+                                <h5 class="media-heading"> by <a href="#">{{item.ItemDescription}}</a></h5>
+                                <span>Seller: </span><span class="text-success"><strong>{{item.SellerName}}</strong></span>
+                            </div>
+                        </div></td>
+
+                    <!-- <input type="email" class="form-control" id="exampleInputEmail1" value="3"> -->
+                    <!-- <td class="col-sm-1 col-md-1 text-center"><strong>{{item.Qty}}</strong></td> -->
+
+
+                    <!--<td class="col-sm-1 col-md-1 text-center"><strong>{{item.BidAmount}}</strong></td>
+                    -->
+                    <td class="col-sm-1 col-md-1 text-center"><strong>{{item.Price}}</strong></td>
+                    <td class="col-sm-1 col-md-1 text-center"><strong>{{item.Paymentdate| date:'medium'}}</strong></td>
+
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</div>
