@@ -1,5 +1,4 @@
-# HAKUNA MATATA (TEAM 9)
-## NOTE: We are canvas team 9. But there happened some confusion so we got github 15. Please consider as canvas team 9
+# HAKUNA MATATA (TEAM 15)
 
 WEBSITE LINK : http://ec2-52-36-221-33.us-west-2.compute.amazonaws.com/myHome/ 
 
